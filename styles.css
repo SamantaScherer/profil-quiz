@@ -1,0 +1,95 @@
+/* Grundlegendes Aussehen der gesamten Seite */
+
+body {
+    background-color: #70467c;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Überschrift */
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Die Quiz-Karte */
+
+#quiz-container {
+    background-color: #3b0e49;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Bereich mit der Frage */
+
+.card-header {
+    background-color: #4a4a6a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+/* Die eigentliche Frage */
+
+#question {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Bereich für die Antworten */
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+/* Antwort-Buttons */
+
+.answer-button {
+    background-color: #4a4a6a;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+
+/* Hover-Effekt */
+
+.answer-button:hover {
+    background-color: #31a59b;
+    transform: translateY(-2px);
+}
+
+#restart-button{
+    background-color: #4a4a6a;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+        
+    
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil-Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h2>Ein kleines Quiz über meinen Lebenslauf</h2>
+
+    <div id="quiz-container">
+
+        <div class="card-header">
+            <h1 id="question"></h1>
+        </div>
+
+        <div class="card-body">
+            <div id="answers"></div>
+        </div>
+
+    </div>
+
+   <div id="result" hidden>
+
+    <div class="card-header">
+        <h1>Quiz beendet!</h1>
+    </div>
+
+    <div class="card-body">
+        <p>Deine Punktzahl: <span id="score"></span></p>
+
+        <p>Vielen Dank, dass du dir die Zeit genommen hast mein kleines Quiz zu testen!</p>
+
+        <button id="restart-button" onclick="restartQuiz()">
+            Nochmal spielen
+        </button>
+
+    </div>
+
+</div>
+
+
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
